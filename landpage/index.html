@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title> Escola DNC </title>
+
+</head>
+<body>
+    <!-- menu superior-->
+    <div id="menu">    <a href="https://aluno.dnc.group/painel"> <img src="imagens/logo.svg" id="logo" alt="erro"> </a>
+        <h1 id="titulo">Dê os primeiros passos da <br>
+            sua carreira em Tecnologia</h1>
+        <p id="paragrafo">Inscreva-se no curso gratuito de Introdução à <br>
+            Tecnologia da DNC School e aprenda os principais <br>
+             fundamentos para construir experiências efetivas.</p> 
+    </div>
+    <!-- menu informacional-->
+    <div id="menuinformalcional">
+        
+        <p class="textoinformativo"> <img src="imagens/certificado.svg" class="icone" id="certificado" alt=""> Certificado de conclusão </p>
+    
+        <p class="textoinformativo"> <img src="imagens/relogio.svg" class="icone" id="relogio" alt=""> 4 horas de conteúdo</p>
+        
+        <p class="textoinformativo"> <img src="imagens/camera.svg" class="icone" id="camera" alt=""> Aulas online gravadas</p>
+    </div>
+    <script src="index.js"></script>
+
+    <!-- menu video-->
+    <div id="video">
+        <iframe id="youtube" width="502" height="283" src="https://www.youtube.com/embed/JeExPAE8QT0" title="Shippuden - 7 Minutoz | Gabriel Macedo (Cover)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div id="geral"> <h1 id="textotitulo"> Aprenda com especialistas e <br> comece seu primeiro projeto </h1> <br> <br>
+            <p id="textovideo">Conheça o processo de desenvolvimento e entenda como utilizar <br>
+                os principais métodos e ferramentas da área para resolver <br>
+                problemas complexos. <br> <br>
+    
+                Conquiste seu certificado e desenvolva um projeto prático para <br>
+                aplicar seus conhecimentos.</p>
+            </div>
+        
+    </div>
+
+    <!-- carrossel-->
+    <div id="carrossel">
+        
+        <h1>Mais de 500 alunos já iniciaram seus estudos</h1>
+        <div id="cards">
+            <img id="setaesquerda" onclick="rolarparaesquerda()" class="seta" src="cards/seta.esquerda.svg" alt="">
+            <img id="leonardo" class="card" src="cards/leonardo.svg" alt="">
+            <img id="bruna" class="card" src="cards/bruna.svg" alt="">
+            <img id="samanta" class="card" src="cards/samanta.svg" alt="">
+            <img id="setadireita" onclick="rolarparadireita()" class="seta" src="cards/seta diireita.svg" alt="">
+        </div>
+        <script src="index.js"></script>
+
+    </div>
+
+    <!-- formulario-->
+    <div id="formulario">
+        <h1 id="titulo-formulario">Comece agora mesmo e dê o próximo passo da sua carreira</h1>
+        <form action="https://api.sheetmonkey.io/form/uwtcKH1qvfzDoAEe4Tz1to" method="post" >
+            <input type="text" placeholder="nome" name="Name" required><br>
+            <input type="text" placeholder="Email" name="Email" required> <br>
+            <input type="number" placeholder="numero"> <br>
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time">
+            <button type="submit">Acesse a ementa grátis</button>
+        </form> 
+    </div>
+</body>
+</html>
